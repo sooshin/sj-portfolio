@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
+    const resumeUrl = '/Soojeong_Shin_Android_Engineer_2025.pdf';
     window.open(resumeUrl);
   };
 

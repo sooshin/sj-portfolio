@@ -1,25 +1,21 @@
 import {
-  c,
-  python,
+
   java,
-  cpp,
-  javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
+  kotlin,
+
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+
+
+  androidSDK,
+  jetpackCompose,
+  firebase,
+
+  u2medtek,
+  ninetyNineGroup,
+  razer,
+  guardianNewsFeed,
+  popularMovies,
+
 } from "../assets";
 
 export const navLinks = [
@@ -38,21 +34,15 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
+  { title: "Kotlin", icon: kotlin },
   { title: "Java", icon: java },
 ];
 
 export const technologies = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
-  { name: "git", icon: git },
+  { name: "Jetpack Compose", icon: jetpackCompose },
+  { name: "Android SDK", icon: androidSDK },
+  { name: "Firebase", icon: firebase },
+  { name: "Git", icon: git },
 ];
 
 export const experiences = [
@@ -60,7 +50,7 @@ export const experiences = [
     title: "Android Engineer",
     company_name: "U2medtek | Seoul, South Korea",
     icon: u2medtek,
-    iconBg: "#161329",
+    iconBg: "#FFFFFF",
     date: "Jan 2023 - Present",
     points: [
       "Develop SweetAI, an AI-based blood glucose prediction app, in close collaboration with a backend engineer. ",
@@ -78,7 +68,7 @@ export const experiences = [
     title: "Android Engineer",
     company_name: "99 Group | Singapore",
     icon: ninetyNineGroup,
-    iconBg: "#161329",
+    iconBg: "#216bff",
     date: "May 2022 - Dec 2022",
     points: [
       "Implemented Smart Video Phase 1 features for the 99.co Singapore app, enabling video insertion, rearrangement, and AI voice/background music customization.",
@@ -92,9 +82,9 @@ export const experiences = [
   },
   {
     title: "Software Engineer",
-    company_name: "Razer Inc. | Singapore/Remote",
+    company_name: "Razer Inc. | Singapore",
     icon: razer,
-    iconBg: "#161329",
+    iconBg: "#000000",
     date: "Mar 2020 - Apr 2022",
     points: [
       "Developed and maintained multiple Android apps, including Audio, Zephyr, and Streaming, refining custom UI components and animations.",
@@ -115,9 +105,9 @@ export const projects = [
       { name: "Kotlin & Java", color: "blue-text-gradient" },
       { name: "Retrofit", color: "green-text-gradient" },
       { name: "MVVM", color: "pink-text-gradient" },
-      { name: "Firebase", color: "yellow-text-gradient" },
+      { name: "Firebase", color: "pink-text-gradient" },
     ],
-    image: gaurdianNewsFeed,
+    image: guardianNewsFeed,
     source_code_link: "https://github.com/sooshin/android-news-app",
   },
   {
