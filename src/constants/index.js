@@ -38,16 +38,21 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "Kotlin", icon: c },
+  { title: "C", icon: c },
+  { title: "C++", icon: cpp },
+  { title: "Python", icon: python },
   { title: "Java", icon: java },
 ];
 
 export const technologies = [
-  { name: "Jetpack Compose", icon: html },
-  { name: "Android SDK", icon: css },
-  { name: "Firebase", icon: javascript },
-  { name: "Git", icon: reactjs },
-  { name: "Jira", icon: tailwind },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "Rect JS", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "Three JS", icon: threejs },
+  { name: "git", icon: git },
 ];
 
 export const experiences = [
