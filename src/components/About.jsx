@@ -40,11 +40,10 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        I'm an Android Engineer with 5 years of hands-on experience in building reliable, scalable, and user-focused
+        mobile applications. I specialize in modern Android development using Kotlin, Jetpack Compose, and MVVM architecture.
+        From healthcare apps to large-scale commercial products, I focus on clean architecture, high performance, and delivering delightful user experiences.
+        I enjoy transforming complex ideas into elegant, maintainable solutions that make a real impact.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

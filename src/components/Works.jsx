@@ -54,14 +54,12 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>My personal</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Following projects showcase my skills and experience through examples
-          of my work. Each project is briefly described with links to code
-          repositories in it.
+          Transforming ideas into Android apps that blend functionality, design, and seamless user experience.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

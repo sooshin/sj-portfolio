@@ -38,133 +38,94 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
+  { title: "Kotlin", icon: c },
   { title: "Java", icon: java },
 ];
 
 export const technologies = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
-  { name: "git", icon: git },
+  { name: "Jetpack Compose", icon: html },
+  { name: "Android SDK", icon: css },
+  { name: "Firebase", icon: javascript },
+  { name: "Git", icon: reactjs },
+  { name: "Jira", icon: tailwind },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Android Engineer",
+    company_name: "U2medtek | Seoul, South Korea",
+    icon: u2medtek,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Jan 2023 - Present",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Develop SweetAI, an AI-based blood glucose prediction app, in close collaboration with a backend engineer. ",
+
+      "Recognized as the top-ranked project (1st place) in the G-Star Dreamers Program ($37K award), selected by POSCO–POSTECH for CES 2024, and contributed to securing a $750K investment from Kakao through product innovation.",
+
+      "Build a Blood Glucose & Weight Management app integrating 100+ APIs, a CGM device, SDKs (FoodLens, Body Fat Scale), and social logins (Naver, Kakao, Google).",
+
+      "Develop a tablet app connecting to medical examination equipment via socket communication, enabling reliable offline-first data processing and device connectivity.",
+
+      "Using Jetpack Compose, Kotlin Coroutines, Flow, Dagger Hilt, Room, Retrofit, WorkManager, MVVM, Firebase Remote Config.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Android Engineer",
+    company_name: "99 Group | Singapore",
+    icon: ninetyNineGroup,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "May 2022 - Dec 2022",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Implemented Smart Video Phase 1 features for the 99.co Singapore app, enabling video insertion, rearrangement, and AI voice/background music customization.",
+
+      "Improved Agent tools, developed a new project detail page, migrated RxJava to coroutines, and replaced deprecated APIs.",
+
+      "Collaborated with PMs, designers, backend, iOS, and QA engineers under Agile Scrum.",
+
+      "Utilized Kotlin, View Binding, LiveData, Retrofit, and Clean Architecture to deliver maintainable and scalable features.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Software Engineer",
+    company_name: "Razer Inc. | Singapore/Remote",
+    icon: razer,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "Mar 2020 - Apr 2022",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Developed and maintained multiple Android apps, including Audio, Zephyr, and Streaming, refining custom UI components and animations.",
+
+      "Integrated UI into MVP/MVVM architectures using Kotlin, Navigation, LiveData, and Room.",
+
+      "Conducted multi-device feature testing, collaborated closely with UX, backend, and QA teams, and participated in code reviews and pair programming.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Guardian News Feed",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Developed a Guardian news & podcast Android app from scratch, achieving 2.5K+ downloads and a 3.96 rating on Google Play.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Kotlin & Java", color: "blue-text-gradient" },
+      { name: "Retrofit", color: "green-text-gradient" },
+      { name: "MVVM", color: "pink-text-gradient" },
+      { name: "Firebase", color: "yellow-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: gaurdianNewsFeed,
+    source_code_link: "https://github.com/sooshin/android-news-app",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Popular Movies",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Developed an Android app to discover and bookmark popular and upcoming movies, showcasing trailers, reviews, and a responsive UI. Achieved 5K+ downloads.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "Paging", color: "blue-text-gradient" },
+      { name: "LiveData", color: "green-text-gradient" },
+      { name: "Room", color: "pink-text-gradient" },
+      { name: "MVVM", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
-  },
-  {
-    name: "Mental Health Fitness Tracker",
-    description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: popularMovies,
+    source_code_link: "https://github.com/sooshin/android-popular-movies-app",
   },
 ];
