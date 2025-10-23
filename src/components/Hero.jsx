@@ -17,14 +17,19 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Soojeong</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am 
+          <p className={`${styles.heroSubText} mt-2 text-white`}>
+            I am{" "}
             <Typewriter
               options={{
-                strings: ["an Android Developer", "a Jetpack Compose Enthusiast", "a Kotlin Lover", "a UI/UX Focused Engineer", "a Mobile App Creator"],
+                strings: [
+                  "an Android Developer",
+                  "a Jetpack Compose Enthusiast",
+                  "a Kotlin Lover",
+                  "a UI/UX Focused Engineer",
+                  "a Mobile App Creator",
+                ],
                 autoStart: true,
                 loop: true,
-                loopCount: Infinity,
                 deleteSpeed: "natural",
                 pauseFor: 1000,
               }}
