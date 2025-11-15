@@ -9,8 +9,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Soojeong_Shin_2025.pdf';
-    window.open(resumeUrl);
+  const resumeUrl = `${import.meta.env.BASE_URL}Soojeong_Shin_2025.pdf`;
+  window.open(resumeUrl, "_blank");
   };
 
   useEffect(() => {
