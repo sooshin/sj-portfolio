@@ -16,6 +16,11 @@ import {
   guardianNewsFeed,
   popularMovies,
 
+  sweetAI,
+  nnwork,
+  sinusApp,
+  razerApps,
+
 } from "../assets";
 
 export const navLinks = [
@@ -93,6 +98,61 @@ export const experiences = [
 
       "Conducted multi-device feature testing, collaborated closely with UX, backend, and QA teams, and participated in code reviews and pair programming.",
     ],
+  },
+];
+
+export const someOfMyWork = [
+  {
+    name: "SinusView app",
+    description:
+      "A purpose-built tablet application designed to interface seamlessly with the SinusView examination device through stable socket-based communication. Its offline-first design ensures uninterrupted data capture and review, even in clinics with limited connectivity. Currently in pre-release development, the app focuses on delivering dependable workflow support for medical professionals.",
+    tags: [
+      { name: "Jetpack Compose", color: "blue-text-gradient" },
+      { name: "Offline-first", color: "green-text-gradient" },
+      { name: "Kotlin Coroutines & Flow", color: "pink-text-gradient" },
+      { name: "Room", color: "pink-text-gradient" },
+    ],
+    image: sinusApp,
+    source_code_link: "https://www.u2medtek.com/product",
+  },
+  {
+    name: "SweetAI",
+    description:
+      "A next-generation health care app that predicts post-meal glucose responses from food images using modern Compose-based architecture. Real-time predictions guide users to maintain balanced eating patterns within the Green Zone. A lightweight gamified layer with Piggy logic and progression systems enhances long-term adherence.",
+    tags: [
+      { name: "Jetpack Compose", color: "blue-text-gradient" },
+      { name: "Kotlin", color: "green-text-gradient" },
+      { name: "Coroutines & Flow", color: "pink-text-gradient" },
+      { name: "MVVM", color: "pink-text-gradient" },
+    ],
+    image: sweetAI,
+    source_code_link: "",
+  },
+  {
+    name: "99.co SG",
+    description:
+      "A modern real-estate platform empowering users to explore properties with an intuitive mobile experience. Enhanced with smart video tools, interactive media, and streamlined listing workflows, the app helps agents and home-seekers navigate property data with greater clarity and engagement.",
+    tags: [
+      { name: "Kotlin", color: "blue-text-gradient" },
+      { name: "Coroutines", color: "green-text-gradient" },
+      { name: "Clean Architecture", color: "pink-text-gradient" },
+      { name: "Retrofit", color: "pink-text-gradient" },
+    ],
+    image: nnwork,
+    source_code_link: "https://play.google.com/store/apps/details?id=co.ninetynine.android",
+  },
+  {
+    name: "Razer Audio",
+    description:
+      "A companion Android app for Razer's peripheral ecosystem, providing seamless device pairing, customisation, and real-time controls. Focused on crafting polished UI components and motion-driven interactions to elevate the overall user experience across multiple hardware products. ",
+    tags: [
+      { name: "Kotlin", color: "blue-text-gradient" },
+      { name: "Custom UI", color: "green-text-gradient" },
+      { name: "Animations", color: "pink-text-gradient" },
+      { name: "Navigation", color: "pink-text-gradient" },
+    ],
+    image: razerApps,
+    source_code_link: "https://github.com/sooshin/android-popular-movies-app",
   },
 ];
 

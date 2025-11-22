@@ -7,6 +7,12 @@ import razer from "./company/razer.png";
 import kotlin from "./tech-stack/kotlin.png";
 import java from "./tech-stack/java.png";
 
+// Import featured work images
+import sweetAI from "./projects/sweetAI.png";
+import nnwork from "./projects/nnwork.png";
+import sinusApp from "./projects/sinusApp.png";
+import razerApps from "./projects/razerApps.png";
+
 // Import project images
 import guardianNewsFeed from "./projects/guardianNewsFeed.png";
 import popularMovies from "./projects/popularMovies.png";
@@ -35,6 +41,11 @@ export {
   git,
   popularMovies,
   guardianNewsFeed,
+  sweetAI,
+  nnwork,
+  sinusApp,
+  razerApps,
+
   logo,
   menu,
   close,
