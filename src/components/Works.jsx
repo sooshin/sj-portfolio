@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { playstoreIcon } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects, someOfMyWork } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ name, description, tags, image, source_code_link, linkType, icons }) => {
+  const icon = linkType === "playstore" ? icons.playstore : icons.github;
   return (
     <motion.div variants={fadeIn("up", "spring")}>
       <Tilt
@@ -25,14 +27,17 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
+          {source_code_link && (
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => source_code_link && window.open(source_code_link, "_blank")}
+                className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center 
+                  ${source_code_link ? "cursor-pointer" : "cursor-default opacity-50"}`}
+              >
+                <img src={icon} alt="link icon" className="w-1/2 h-1/2 object-contain" />
+              </div>
             </div>
-          </div>
+          )}
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -72,7 +77,8 @@ const Works = () => {
 
       <div className="mt-10 flex flex-wrap gap-7">
         {someOfMyWork.map((project, index) => (
-          <ProjectCard key={`mywork-${index}`} {...project} />
+          <ProjectCard key={`mywork-${index}`} {...project} linkType="playstore"
+          icons={{ playstore: playstoreIcon, github }}/>
         ))}
       </div>
 
@@ -88,7 +94,8 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} {...project} />
+          <ProjectCard key={`project-${index}`} {...project} linkType="github"
+          icons={{ playstore: playstoreIcon, github }} />
         ))}
       </div>
     </>

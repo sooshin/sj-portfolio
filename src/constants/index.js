@@ -117,7 +117,7 @@ export const someOfMyWork = [
       { name: "Room", color: "pink-text-gradient" },
     ],
     image: sinusApp,
-    source_code_link: "https://www.u2medtek.com/product",
+    source_code_link: "",
   },
   {
     name: "SweetAI",
@@ -148,7 +148,7 @@ export const someOfMyWork = [
   {
     name: "Razer Audio",
     description:
-      "A companion Android app for Razer's peripheral ecosystem, providing seamless device pairing, customisation, and real-time controls. Focused on crafting polished UI components and motion-driven interactions to elevate the overall user experience across multiple hardware products. ",
+      "A companion Android app for Razer's peripheral ecosystem, providing seamless device pairing, customisation, and real-time controls. Focused on crafting polished UI components and motion-driven interactions to elevate the overall user experience across multiple hardware products.",
     tags: [
       { name: "Kotlin", color: "blue-text-gradient" },
       { name: "Custom UI", color: "green-text-gradient" },

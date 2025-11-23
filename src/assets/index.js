@@ -26,6 +26,7 @@ import git from "./tech/git.png";
 // Import common assets
 import logo from "./myLogo.png";
 import github from "./github.png";
+import playstoreIcon from "./playstore.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -50,4 +51,5 @@ export {
   menu,
   close,
   github,
+  playstoreIcon,
 };
