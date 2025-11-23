@@ -54,6 +54,7 @@ export const experiences = [
   {
     title: "Android Engineer",
     company_name: "U2medtek | Seoul, South Korea",
+    company_link: "https://www.u2medtek.com",
     icon: u2medtek,
     iconBg: "#FFFFFF",
     date: "Jan 2023 - Present",
@@ -72,6 +73,7 @@ export const experiences = [
   {
     title: "Android Engineer",
     company_name: "99 Group | Singapore",
+    company_link: "https://www.99.co",
     icon: ninetyNineGroup,
     iconBg: "#216bff",
     date: "May 2022 - Dec 2022",
@@ -88,6 +90,7 @@ export const experiences = [
   {
     title: "Software Engineer",
     company_name: "Razer Inc. | Singapore",
+    company_link: "https://www.razer.com",
     icon: razer,
     iconBg: "#000000",
     date: "Mar 2020 - Apr 2022",
@@ -109,7 +112,8 @@ export const someOfMyWork = [
     tags: [
       { name: "Jetpack Compose", color: "blue-text-gradient" },
       { name: "Offline-first", color: "green-text-gradient" },
-      { name: "Kotlin Coroutines & Flow", color: "pink-text-gradient" },
+      { name: "Kotlin", color: "green-text-gradient" },
+      { name: "Coroutines & Flow", color: "pink-text-gradient" },
       { name: "Room", color: "pink-text-gradient" },
     ],
     image: sinusApp,
@@ -152,7 +156,7 @@ export const someOfMyWork = [
       { name: "Navigation", color: "pink-text-gradient" },
     ],
     image: razerApps,
-    source_code_link: "https://github.com/sooshin/android-popular-movies-app",
+    source_code_link: "https://play.google.com/store/apps/details?id=com.razer.audiocompanion",
   },
 ];
 
