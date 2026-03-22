@@ -40,10 +40,21 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an Android Engineer with 5 years of hands-on experience in building reliable, scalable, and user-focused
-        mobile applications. I specialize in modern Android development using Kotlin, Jetpack Compose, and MVVM architecture.
-        From healthcare apps to large-scale commercial products, I focus on clean architecture, high performance, and delivering delightful user experiences.
-        I enjoy transforming complex ideas into elegant, maintainable solutions that make a real impact.
+        I'm a Senior Android Engineer with 6+ years of experience shipping production apps
+        across health-tech, proptech, and consumer electronics — including 2+ years working
+        in Singapore's tech ecosystem at Razer and 99 Group. I've led projects end-to-end
+        as a sole Android engineer, from architecture design through production release,
+        and my work has directly contributed to securing $750K+ in investment and CES 2024 selection.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn('', '', 0.2, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        I specialise in Kotlin, Jetpack Compose, and Clean Architecture, and I care deeply
+        about building apps that are performant, maintainable, and genuinely useful. Whether
+        it's integrating ML inference on a medical device tablet or modernising a legacy
+        codebase at scale, I bring both technical depth and product ownership to every project.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

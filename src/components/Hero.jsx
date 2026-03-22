@@ -22,11 +22,10 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "an Android Developer",
-                  "a Jetpack Compose Enthusiast",
-                  "a Kotlin Lover",
-                  "a UI/UX Focused Engineer",
-                  "a Mobile App Creator",
+                  "a Senior Android Engineer",
+                  "shipping health-tech apps to production",
+                  "building offline-first medical apps",
+                  "with 2+ years in Singapore's tech ecosystem",
                 ],
                 autoStart: true,
                 loop: true,
