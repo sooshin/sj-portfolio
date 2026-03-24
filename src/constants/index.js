@@ -10,11 +10,24 @@ import {
   jetpackCompose,
   firebase,
 
+  kotlinLang,
+  coroutines,
+  daggerHilt,
+  room,
+  retrofit,
+  mvvm,
+  cicd,
+
+  mobileArchitecture,
+  healthTech,
+  fullSdlc,
+  internationalExp,
+
   u2medtek,
   ninetyNineGroup,
   razer,
-  guardianNewsFeed,
-  popularMovies,
+  newsfeedforGuardian,
+  reelmind,
 
   sweetAI,
   nnwork,
@@ -33,22 +46,33 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
 ];
 
 export const services = [
-  { title: "Mobile Architecture", icon: kotlin },
-  { title: "Health-Tech & MedTech", icon: androidSDK },
-  { title: "Full SDLC Ownership", icon: jetpackCompose },
-  { title: "International Experience", icon: firebase },
+  { title: "Mobile Architecture", icon: mobileArchitecture },
+  { title: "Health-Tech & MedTech", icon: healthTech },
+  { title: "Full SDLC Ownership", icon: fullSdlc },
+  { title: "International Experience", icon: internationalExp },
 ];
 
 export const technologies = [
+  { name: "Kotlin", icon: kotlinLang },
   { name: "Jetpack Compose", icon: jetpackCompose },
+  { name: "Coroutines", icon: coroutines },
+  { name: "Dagger Hilt", icon: daggerHilt },
+  { name: "Room", icon: room },
+  { name: "Retrofit", icon: retrofit },
+  { name: "MVVM", icon: mvvm },
   { name: "Android SDK", icon: androidSDK },
   { name: "Firebase", icon: firebase },
+  { name: "CI/CD", icon: cicd },
   { name: "Git", icon: git },
 ];
 
@@ -170,7 +194,7 @@ export const projects = [
       { name: "Baseline Profiles", color: "pink-text-gradient" },
       { name: "Clean Architecture", color: "pink-text-gradient" },
     ],
-    image: popularMovies,
+    image: reelmind,
     source_code_link: "https://play.google.com/store/apps/details?id=com.soojeongshin.reelmind",
   },
   {
@@ -183,7 +207,7 @@ export const projects = [
       { name: "MVI Architecture", color: "pink-text-gradient" },
       { name: "99% Crash-free", color: "pink-text-gradient" },
     ],
-    image: guardianNewsFeed,
+    image: newsfeedforGuardian,
     source_code_link: "https://play.google.com/store/apps/details?id=com.soojeongshin.newsfeed.free",
   },
 ];

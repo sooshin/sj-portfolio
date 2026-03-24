@@ -14,14 +14,27 @@ import sinusApp from "./projects/sinusApp.png";
 import razerApps from "./projects/razerApps.png";
 
 // Import project images
-import guardianNewsFeed from "./projects/guardianNewsFeed.png";
-import popularMovies from "./projects/popularMovies.png";
+import newsfeedforGuardian from "./projects/newsfeedforGuardian.png";
+import reelmind from "./projects/reelmind.png";
 
 // Import tech logos
 import jetpackCompose from "./tech/jetpackCompose.png";
 import androidSDK from "./tech/androidSDK.png";
 import firebase from "./tech/firebase.png";
 import git from "./tech/git.png";
+import kotlinLang from "./tech/kotlin_lang.png";
+import coroutines from "./tech/coroutines.png";
+import daggerHilt from "./tech/daggerHilt.png";
+import room from "./tech/room.png";
+import retrofit from "./tech/retrofit.png";
+import mvvm from "./tech/mvvm.png";
+import cicd from "./tech/cicd.png";
+
+// Import service icons
+import mobileArchitecture from "./services/mobileArchitecture.png";
+import healthTech from "./services/healthTech.png";
+import fullSdlc from "./services/fullSdlc.png";
+import internationalExp from "./services/internationalExp.png";
 
 // Import common assets
 import logo from "./myLogo.png";
@@ -40,12 +53,25 @@ export {
   androidSDK,
   firebase,
   git,
-  popularMovies,
-  guardianNewsFeed,
+  reelmind,
+  newsfeedforGuardian,
   sweetAI,
   nnwork,
   sinusApp,
   razerApps,
+
+  kotlinLang,
+  coroutines,
+  daggerHilt,
+  room,
+  retrofit,
+  mvvm,
+  cicd,
+
+  mobileArchitecture,
+  healthTech,
+  fullSdlc,
+  internationalExp,
 
   logo,
   menu,

@@ -87,8 +87,8 @@ const Works = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Selected professional projects showcasing my expertise in Android development, 
-        system integration, and user-focused product design.
+        Production apps I've built or contributed to — each card explains the problem,
+        my engineering decisions, and the outcome.
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-7">
@@ -104,8 +104,8 @@ const Works = () => {
       <div className="my-20" />
 
       <motion.div variants={textVariant()} initial="hidden" whileInView="show">
-        <p className={`${styles.sectionSubText}`}>My personal</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <p className={`${styles.sectionSubText}`}>Side projects</p>
+        <h2 className={`${styles.sectionHeadText}`}>Personal Work</h2>
       </motion.div>
 
       <motion.p
@@ -115,7 +115,8 @@ const Works = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Transforming ideas into Android apps that blend functionality, design, and seamless user experience.
+        Self-initiated apps published on Google Play — built to explore new technologies
+        and maintain real production code over time.
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-7">
@@ -123,7 +124,7 @@ const Works = () => {
           <ProjectCard
             key={`project-${index}`}
             {...project}
-            linkType="github"
+            linkType="playstore"
           />
         ))}
       </div>
@@ -131,4 +132,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
