@@ -17,7 +17,8 @@ const ProjectCard = ({ name, description, tags, image, source_code_link, linkTyp
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="w-full sm:w-[360px] min-w-0"
+      className={`w-full sm:w-[360px] min-w-0${source_code_link ? ' cursor-pointer' : ''}`}
+      onClick={() => source_code_link && window.open(source_code_link, "_blank")}
     >
       <Tilt
         options={{
