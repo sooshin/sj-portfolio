@@ -85,9 +85,9 @@ export const experiences = [
     iconBg: "#FFFFFF",
     date: "Jan 2023 - Present",
     points: [
-      "Sole Android engineer responsible for the full SDLC of three production apps — from architecture decisions and API integration through release management.",
+      "Architected and shipped three Android apps — SweetAI, a blood glucose monitoring app, and SinusView — collaborating with PM, backend engineer across the full SDLC from architecture through release.",
 
-      "Built SweetAI, an AI-based blood glucose prediction app that helped the company secure a $750K Kakao investment, a $37K G-Star Dreamers grant (1st place), and CES 2024 selection.",
+      "Built SweetAI, an AI-based blood glucose prediction app selected for the Kakao Investment Program, awarded a $37K G-Star Dreamers grant (1st place), and chosen for CES 2024. The app served as the core working demo enabling investor conversations.",
 
       "Engineered the SinusView medical device tablet app with offline-first architecture, socket-based device communication, ML Kit face detection, and end-to-end encrypted image transmission — porting Python ML algorithms to Kotlin via OpenCV for fully offline inference.",
 
@@ -104,7 +104,7 @@ export const experiences = [
     iconBg: "#216bff",
     date: "May 2022 - Dec 2022",
     points: [
-      "Shipped Smart Video Phase 1 for the 99.co app (100K+ downloads) within a 4-person Android team — building video insertion, reordering, and AI-powered voice and background music customization from scratch.",
+      "Shipped Smart Video Phase 1 for the 99.co app within a 4-person Android team — building video insertion, reordering, and AI-powered voice and background music customization from scratch.",
 
       "Led a full codebase migration from RxJava to Kotlin Coroutines, removing callback complexity across all async flows and replacing deprecated APIs with modern alternatives.",
 
@@ -145,7 +145,7 @@ export const someOfMyWork = [
   {
     name: "SweetAI — AI Blood Glucose Prediction",
     description:
-      "The challenge: Build an AI-based blood glucose prediction app as the sole Android engineer — from an empty repository to a production-ready product. I chose MVVM architecture to keep the UI layer cleanly separated from the data and business logic, making it straightforward to integrate the FoodLens SDK for food image recognition. I built animations and polished UI interactions with Jetpack Compose, collaborating closely with an external designer, a backend engineer, and an iOS engineer to align the experience across platforms. The app's quality directly contributed to securing a $750K Kakao investment, winning the G-Star Dreamers Program (1st place, $37K grant), and being selected for CES 2024 through the POSCO-POSTECH program.",
+      "The challenge: Build an AI-based blood glucose prediction app from an empty repository to a production-ready product. I chose MVVM architecture to keep the UI layer cleanly separated from the data and business logic, making it straightforward to integrate the FoodLens SDK for food image recognition. I built animations and polished UI interactions with Jetpack Compose, collaborating closely with an external designer, a backend engineer, and an iOS engineer to align the experience across platforms. The app was selected for the Kakao Investment Program, serving as the core working demo for investor conversations — alongside winning the G-Star Dreamers Program (1st place, $37K grant) and CES 2024 selection through the POSCO-POSTECH program.",
     tags: [
       { name: "Jetpack Compose", color: "blue-text-gradient" },
       { name: "FoodLens SDK Integrations", color: "green-text-gradient" },
@@ -158,7 +158,7 @@ export const someOfMyWork = [
   {
     name: "99.co — Smart Video Feature",
     description:
-      "The challenge: 99.co (100K+ downloads) needed agents to create compelling video listings without professional editing tools. Within a 4-person Android team, I contributed to Smart Video Phase 1 — working on video insertion, drag-to-reorder, and AI-powered voice narration with background music customization, all within Clean Architecture boundaries to keep the feature independently testable. I also led the full RxJava-to-Coroutines migration, eliminating callback nesting across all async flows and adding analytics tracking to collect user behaviour data.",
+      "The challenge: 99.co needed agents to create compelling video listings without professional editing tools. Within a 4-person Android team, I contributed to Smart Video Phase 1 — working on video insertion, drag-to-reorder, and AI-powered voice narration with background music customization, all within Clean Architecture boundaries to keep the feature independently testable. I also led the full RxJava-to-Coroutines migration, eliminating callback nesting across all async flows and adding analytics tracking to collect user behaviour data.",
     tags: [
       { name: "Kotlin Coroutines", color: "blue-text-gradient" },
       { name: "Clean Architecture", color: "green-text-gradient" },

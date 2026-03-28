@@ -42,9 +42,8 @@ const About = () => {
       >
         I'm a Senior Android Engineer with 6+ years of experience shipping production apps
         across health-tech, proptech, and consumer electronics — including 2+ years working
-        in Singapore's tech ecosystem at Razer and 99 Group. I've led projects end-to-end
-        as a sole Android engineer, from architecture design through production release,
-        and my work has directly contributed to securing $750K+ in investment and CES 2024 selection.
+        in Singapore's tech ecosystem at Razer and 99 Group. I've owned Android development end-to-end
+        across multiple production apps, from architecture design through release.
       </motion.p>
 
       <motion.p
@@ -55,6 +54,8 @@ const About = () => {
         about building apps that are performant, maintainable, and genuinely useful. Whether
         it's integrating ML inference on a medical device tablet or modernising a legacy
         codebase at scale, I bring both technical depth and product ownership to every project.
+        My work has contributed to CES 2024 selection, a G-Star Dreamers Program grant (1st place), 
+        and the Kakao Investment Program.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
